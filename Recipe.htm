@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Food Recipe</title>
+        <link rel="stylesheet" href="http://www.fonts.googleapis.com/css?family= san_serif|serif|brush|cursive">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/Icons?family=Material+Icons">
+        <link rel="stylesheet" href="mystyle.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" width="device-width" initial-scale="1.0">
+        <meta name="author" content="Gwin Dc">
+        <meta http-equiv="refresh" content="1000" />
+        <meta name="description" content="Recipes, Food, Preparation">
+    </head>
+    <body>
+        <header>
+            <h1>Revolt's Recipe</h1>
+        </header>
+        <nav>
+            <ul>
+            <li>Home</li> <li>Recipe</li> <li>Trendings</li> <li>Order</li><li>Submit a Recipe</li><li>Favorites</li> <li>About Us</li><li>Contact</li> <li>Support</li><li><input type="search" id="search" name="search" placeholder="search Recipe"/></li><li><i class="sign-in">User</i>Log in</li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <div class="form">
+        <form id="form_main">
+            <h1 id="log">Log into your account</h1>
+            <input type="text" class="log-field" id="username" name="username" placeholder="" autofocus="autofocus"/><br>
+            <input type="password" id="pass" class="log-field" name="pass" placeholder=""autocomplete="off"/><br>
+            <input type="checkbox" id="show" class="log-field" name="show" onclick="Show()"><label for="show">Show password</label>
+            <p>Forgot password</p>
+            <input type="checkbox" id="agree" name="agree" /><label for="agree">By clicking you agree to our terms and conditions</label>
+         </form>
+            </div><br>
+            <br>
+            <br>
+        <div class="forgot_pass">
+        <form class="forgot">
+            <h3>Password Recovery</h3>
+            <input type="email" id="forgot_email" name="forgot_email" placeholder=""/><br>
+            <button>Reset</button><br>
+            <button>Back</button>
+        </form>
+        </div>
+    <script src="recipe.js"></script>
+    </body>
+
+</html>

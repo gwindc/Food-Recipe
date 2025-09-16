@@ -1,0 +1,44 @@
+body {
+    background-color: #4D4AFF;
+}
+h1 {
+    color: white;
+}
+nav, ul, li {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: blue;
+    display: flex;
+    justify-items:left ;
+    list-style-type: none;
+    gap: 20px;
+}
+li {
+    border-right: 1px solid blue;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+li:last-child {
+    border: none;
+    float: right;
+} 
+li:first-child {
+    float: left;
+}
+#search {
+    border: 1px solid blue;
+    background-image: ;
+}
+.form, .forgot_pass  {
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 100%;
+    gap: 10%;
+    padding: 20px;
+}
+#log {
+    color: blue;
+    font-size: 20px;
+}
